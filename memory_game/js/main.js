@@ -52,4 +52,10 @@ function createBoard(){
    var board = document.getElementById('game-board').appendChild(cardElement);
     }
 }
+
+
+ var reset = document.getElementById("reset");
+ reset.addEventListener('click',function(){
+    location.reload();
+ });
 createBoard();

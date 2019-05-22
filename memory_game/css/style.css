@@ -79,6 +79,10 @@ footer{
     font-family:"Raleway", sans-serif;
     float:right;
 }
+.name{
+    font-family:"Raleway", sans-serif;
+    
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
